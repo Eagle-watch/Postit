@@ -42,17 +42,18 @@
     flex-wrap: nowrap;
     width: 100%;
     bottom: 0%;
-    transition: 3s;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 1px 1px 10px white;
 }
 .Ombre{
-    box-shadow: black 5px 5px 30px;
+    box-shadow: greenyellow 5px 5px 30px;
     border: solid 2px black;
-    transition: 3s;
-    transform: rotate(360deg);
+    transition: 5s;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+body{
+    background-color: black;
 }

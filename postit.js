@@ -8,18 +8,14 @@ class Postit{
     supprimer
     id
 
-    constructor(x,y,largeur,hauteur,couleur,texte,supprimer,id){
+    constructor(x,y,largeur,hauteur,couleur,texte,id){
         this.x=x
         this.y=y
         this.largeur=largeur
         this.hauteur=hauteur
         this.couleur=couleur
         this.texte=texte
-        this.supprimer=this.supprimer
         this.id=id
-
-
-
     }
     supprimer(){
         this.supprimer
@@ -53,7 +49,11 @@ class Postit{
         postit.style.width=this.largeur+"px"
         postit.style.height=this.hauteur+"px"
         postit.innerHTML=this.texte
-        postit.className = ("Ombre")
+        postit.className = "Ombre"
+        postit.style.transform = "rotate(0deg)"
+        setTimeout(()=>{
+            postit.style.transform = "rotate(360deg)"
+        },200)
         let menu = document.createElement("div")
         postit.appendChild(menu)
         menu.className = "bas"
