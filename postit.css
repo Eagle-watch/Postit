@@ -3,3 +3,56 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.tableau{
+    background-color: black;
+    width: 500px;
+    height: 1000px;
+    padding: 70px;
+    color: white;
+    text-align: center;
+}
+#red{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    box-shadow: 5px 5px 10px white;
+    cursor: pointer;
+    border: solid 2px black;
+}
+#blue{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    box-shadow: 5px 5px 10px white;
+    cursor: pointer;
+}
+#yellow{
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    box-shadow: 5px 5px 10px white;
+    cursor: pointer;
+}
+.bas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    bottom: 0%;
+    transition: 3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 10px white;
+}
+.Ombre{
+    box-shadow: black 5px 5px 30px;
+    border: solid 2px black;
+    transition: 3s;
+    transform: rotate(360deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
