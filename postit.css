@@ -49,11 +49,11 @@
 .Ombre{
     box-shadow: greenyellow 5px 5px 30px;
     border: solid 2px black;
-    transition: 5s;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 body{
     background-color: black;
+    overflow-wrap: break-word;
 }
